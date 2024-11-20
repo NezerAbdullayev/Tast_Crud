@@ -1,5 +1,7 @@
 export const gettAllTask = async (req, res) => {
-  res.sent("hello world");
+  try {
+    const { taskName } = req.body;
+  } catch (error) {}
 };
 
 export const createTask = async (req, res) => {};
